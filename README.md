@@ -10,5 +10,5 @@ Foi uma experiência incrível e muito divertida!
 Estou muitooooo orgulhosa de mim!! 🥹
 Link do jogo: https://nandacorreaa.github.io/SuperMario-MiniGame/
 
-https://github.com/NandaCorreaa/SuperMario-MiniGame/assets/135910374/285fe64a-c673-4c7d-97f7-6bef13dda4c0
+https://github.com/NandaCorreaa/SuperMario-MiniGame/assets/135910374/150f2a15-67d1-4fa2-b1fb-58b857965532
 
