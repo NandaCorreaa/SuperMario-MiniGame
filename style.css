@@ -8,7 +8,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    border: solid;
     align-items: center;
     background-image: url("https://t4.ftcdn.net/jpg/04/91/37/33/360_F_491373352_aUqrTYHKWGhb5L9RuK3em8VBOulzjyyZ.jpg");
 
@@ -83,6 +82,10 @@ h1{
     -2px  1px  30px  #f90880 ;
 }
 
+.mensagemParaOResponsivo{
+    display: none;
+}
+
 @keyframes obstaculoAnimation { /* Para fazer a animação acontecer */
     from {
         right: -150px;
@@ -149,4 +152,44 @@ h1{
     to{
         right: 100%;
     } /* Onde a animação vai terminar */
+}
+
+@media (max-width: 800px) {
+body{
+background-image: url("./Assets/wallpaperSuperMarioResponsivo.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo{
+    padding: 5px;
+    width: 150px;
+}
+
+.bordaDoJogo{
+    display: none;
+}
+
+.chao{
+    display: none;
+}
+
+h1{
+    font-size: 1rem;
+    padding: 0;
+}
+
+.mensagemParaOResponsivo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    height: 30vh;
+    padding: 10px;
+    padding-top: 20px;
+    margin: 10px;
+}
 }
